@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout</title>
+	<h1> Layout Pelajaran </h1> <br>
+        <style type="text/css">
+            body {
+                width: 960px;
+            }
+
+            header, footer {
+                background: #4B0082;
+                border: 1px solid white;
+                color: white;
+                font-size: 2em;
+                font-variant: small-caps;
+                text-align: center;
+            }
+			nav {
+                background: #8B0000;
+                border: 1px solid white;
+                color: white;
+                font-size: 2em;
+                font-variant: small-caps;
+                text-align: center;
+            }
+			aside, section {
+                background: #FFD700;
+                border: 1px solid white;
+                color: white;
+                font-size: 2em;
+                font-variant: small-caps;
+                text-align: center;
+            }
+
+            header, nav, footer {
+                width: 100%;
+            }
+
+            header, footer {
+                height: 50px;
+            }
+
+            nav {
+                height: 50px;
+            }
+
+            aside {
+                float: left;
+                height: 50px;
+                width: 29.5%;
+            }
+
+            section#content {
+                float: right;
+                height: 50px;
+                width: 70%;
+            }
+
+            footer {
+                clear: both;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>Header</header>
+
+        <nav>Pelajaran</nav>
+
+        <aside> Geografi </aside> <section id="content"> Daerah Aliran Sungai </section>
+		<aside> Ekonomi </aside> <section id="content"> Siklus Akuntansi Perusahaan Jasa </section>
+		<aside> Sosiologi </aside> <section id="content"> Daerah Aliran Sungai </section>
+        <footer>Footer</footer>
+    </body>
+</html>
